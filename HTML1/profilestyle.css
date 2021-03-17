@@ -1,0 +1,52 @@
+body{
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    border: 1px solid black;
+    position: relative;
+    width: 460px;
+    margin: 0 auto;
+}
+.content{
+    margin-top: 50px;
+}
+
+.link{
+    position:absolute;
+    right: 5px;
+    top:5px;
+}
+.link a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+img{
+    width: 150px;
+    
+}
+.box-info{
+    border: 1px solid black;
+    width: 350px;
+    margin: 10px auto;
+    padding: 10px;
+
+}
+.box-habit{
+    border: 1px solid black;
+    width: 350px;
+    margin: 10px auto;
+    padding: 10px;
+
+}
+.box-img{
+    text-align: center;   
+}
+.icon{
+    display: flex;
+    justify-content: space-around;
+}

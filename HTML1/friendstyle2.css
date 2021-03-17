@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+
+}
+.container{
+    margin: 0 auto;
+    width: 500px;
+
+}
+table{
+    border: 1px solid black;
+    padding: 10px;
+}
+.link{
+  display:  flex;
+  justify-content: space-between;
+}
+
